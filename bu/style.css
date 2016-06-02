@@ -1,0 +1,77 @@
+@media only screen and (min-width: 0px)
+{
+    body
+    {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;;
+    }
+
+    li
+    {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    h1, h2
+    {
+        margin: 0;
+        padding: 0;
+    }
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+        cursor: auto;
+    }
+
+    a:link:active, a:visited:active {
+        color: #191919;
+    }
+
+    .wrapper
+    {
+        margin: 20px;
+    }
+
+    .title
+    {
+        position: relative;
+        width: 90%;
+        height: 120px;
+        margin: 0 auto 0 auto;
+        background-color: #191919;
+        color: #eb8921;
+
+        /*shadow*/
+        -webkit-box-shadow: 8px 8px 19px 0 rgba(255, 255, 255, 0.3);
+        -moz-box-shadow:    8px 8px 19px 0 rgba(255, 255, 255, 0.3);
+        box-shadow:         8px 8px 19px 0 rgba(255, 255, 255, 0.3);
+    }
+
+    .nav
+    {
+        position: absolute;
+        background-color: #eb8921;
+        height: 30px;
+        color: white;
+        bottom: 0;
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.1em;
+    }
+    .content
+    {
+        position: relative;
+        width: 80%;
+        min-height: 500px;
+        margin: 0 auto 0 auto;
+        background-color: #191919;
+        top: 50px;
+    }
+    .name
+    {
+        margin: 10px;
+    }
+}

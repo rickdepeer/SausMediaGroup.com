@@ -1,0 +1,160 @@
+@media only screen and (min-width: 0px)
+{
+    body
+    {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;;
+    }
+
+    li
+    {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    h1, h2
+    {
+        margin: 0;
+        padding: 0;
+    }
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+        cursor: auto;
+    }
+
+    a:link:active, a:visited:active {
+        color: #191919;
+    }
+
+    a
+    {
+        margin: 3px;
+        padding: 3px;
+    }
+
+    input
+    {
+        /*margin: 3px;
+        padding: 3px;*/
+    }
+
+    .wrapper
+    {
+        margin: 20px;
+        color: aliceblue;
+    }
+
+    .title
+    {
+        position: relative;
+        width: 90%;
+        height: 120px;
+        margin: 0 auto 0 auto;
+        background-color: #191919;
+        color: #eb8921;
+
+        /*shadow*/
+        -webkit-box-shadow: 8px 8px 19px 0 rgba(255, 255, 255, 0.3);
+        -moz-box-shadow:    8px 8px 19px 0 rgba(255, 255, 255, 0.3);
+        box-shadow:         8px 8px 19px 0 rgba(255, 255, 255, 0.3);
+    }
+
+    .nav
+    {
+        position: absolute;
+        background-color: #eb8921;
+        height: 30px;
+        color: white;
+        bottom: 0;
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.1em;
+    }
+    .content
+    {
+        position: relative;
+        width: 80%;
+        min-height: 500px;
+        margin: 0 auto 0 auto;
+        background-color: #191919;
+        top: 50px;
+        padding: 20px;
+    }
+    .name
+    {
+        margin: 10px;
+    }
+    .loginbtn
+    {
+        position: absolute;
+        right: 0;
+        top: 4px;
+    }
+    .backBlack
+    {
+        position: fixed;
+        top: -20px;
+        width: 120%;
+        height: 120%;
+        background-color: black;
+        opacity: 0.6;
+        z-index: 10;
+    }
+    .window
+    {
+        top: 300px;
+        min-height: 150px;
+        background-color: #191919;
+        border: solid;
+        border-color: #f46900;
+        border-radius: 30px ;
+        z-index: 10;
+        padding: 0 10px 20px 20px;
+        color: aliceblue;
+        width: 40%;
+        position: fixed;
+        left: 50%;
+        margin-left: -20%;
+    }
+    .wide
+    {
+        width: 90%;
+    }
+    .down
+    {
+        position: absolute;
+        bottom: 10px;
+    }
+    .right
+    {
+        position: absolute;
+        right: 45px;
+    }
+    .text
+    {
+        margin-bottom: 0;
+    }
+    .smg
+    {
+        color: #f46900;
+    }
+    .zero
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin: auto;
+    }
+    .container
+    {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
